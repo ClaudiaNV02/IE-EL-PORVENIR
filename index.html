@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>I.E. N° 156 El Porvenir - USE 05 SJL</title>
+
+<!-- Bootstrap 5 -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="header">
+  <div class="brand">
+
+    <div class="brand-title">
+      <h1>El Porvenir</h1>
+      <span>UGEL-156 · S.J.L</span>
+    </div>
+  </div>
+
+  <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false" aria-controls="sidebarMenu">
+    <i class="bi bi-list"></i>
+  </button>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero-content">
+    <span class="badge-pill"><i class="bi bi-mortarboard-fill"></i> INSTITUCIÓN EDUCATIVA ESTATAL · DESDE 1985 · SJL</span>
+    <h2>Formando el <span class="highlight">futuro</span> de nuestra comunidad</h2>
+    <p>La I.E. N° 156 "El Porvenir" ofrece educación pública de calidad en Primaria y Secundaria. Más de 2,000 estudiantes construyen juntos un mejor porvenir para San Juan de Lurigancho.</p>
+    <div class="hero-buttons d-flex gap-3 flex-wrap">
+      <button class="btn btn-primary-custom">Conócenos →</button>
+      <button class="btn btn-outline-custom">Contáctanos</button>
+    </div>
+  </div>
+
+
+<!-- ===== OVERLAY + SIDEBAR MENU ===== -->
+<div class="overlay-bg" id="overlayBg"></div>
+
+<nav class="sidebar" id="sidebarMenu" aria-hidden="true">
+  <div class="sidebar-header">
+    <div class="brand-title">
+      <h1>Menú</h1>
+      <span>El Porvenir · IE 156</span>
+    </div>
+    <button class="sidebar-close" id="sidebarClose" aria-label="Cerrar menú">
+      <i class="bi bi-x-lg"></i>
+    </button>
+  </div>
+
+  <div class="sidebar-nav">
+    <a href="inicio.html"><i class="bi bi-house-door-fill"></i> Inicio</a>
+    <a href="nosotros.html"><i class="bi bi-people-fill"></i> Nosotros</a>
+    <a href="#niveles"><i class="bi bi-mortarboard-fill"></i> Niveles de educación</a>
+    <a href="#noticias"><i class="bi bi-newspaper"></i> Noticias</a>
+    <a href="galeria.html"><i class="bi bi-images"></i> Galería</a>
+    <a href="#contacto"><i class="bi bi-envelope-fill"></i> Contáctanos</a>
+  </div>
+
+  <div class="sidebar-footer">
+    © 2026 I.E. N° 156 "El Porvenir" — USE-05 SJL
+  </div>
+</nav>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
