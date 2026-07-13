@@ -1,106 +1,11 @@
-:root {
-
-  /* --- PALETA DE COLORES INSTITUCIONAL --- */
-  /* Azul marino (color principal) */
-  --color-navy-dark:    #0f2548;
-  --color-navy:         #1a3a6b;
-  --color-navy-light:   #254d8f;
-  --color-navy-faint:   #e8eef7;
-
-  /* Celeste (color secundario) */
-  --color-sky-dark:     #3da8d8;
-  --color-sky:          #5bb8e8;
-  --color-sky-light:    #87ceeb;
-  --color-sky-faint:    #ddf0fb;
-
-  /* Dorado (acento, del escudo) */
-  --color-gold:         #c9920a;
-  --color-gold-light:   #f0c040;
-
-  /* Colores de estado */
-  --color-success:      #16a34a;
-  --color-warning:      #d97706;
-  --color-danger:       #dc2626;
-  --color-info:         #0891b2;
-
-  /* Neutros */
-  --color-white:        #ffffff;
-  --color-gray-50:      #f8fafc;
-  --color-gray-100:     #f1f5f9;
-  --color-gray-200:     #e2e8f0;
-  --color-gray-400:     #94a3b8;
-  --color-gray-600:     #475569;
-  --color-gray-800:     #1e293b;
-  --color-black:        #0f172a;
-
-  /* --- TIPOGRAFÍA --- */
-  --font-display: 'Merriweather', Georgia, serif;   /* Títulos principales */
-  --font-body:    'Inter', system-ui, sans-serif;   /* Texto general       */
-  --font-mono:    'Courier New', monospace;          /* Código / DNI        */
-
-  /* Escala tipográfica */
-  --text-xs:   0.70rem;   /* 11px – etiquetas pequeñas  */
-  --text-sm:   0.82rem;   /* 13px – metadatos           */
-  --text-base: 0.94rem;   /* 15px – cuerpo de texto     */
-  --text-md:   1.05rem;   /* 17px – texto destacado     */
-  --text-lg:   1.20rem;   /* 19px – subtítulos          */
-  --text-xl:   1.50rem;   /* 24px – títulos sección     */
-  --text-2xl:  1.90rem;   /* 30px – títulos página      */
-  --text-3xl:  2.50rem;   /* 40px – héroe               */
-  --text-4xl:  clamp(2rem, 5vw, 3.2rem); /* Héroe responsive */
-
-  /* Pesos tipográficos */
-  --weight-normal:  400;
-  --weight-medium:  500;
-  --weight-semi:    600;
-  --weight-bold:    700;
-  --weight-black:   900;
-
-  /* Altura de línea */
-  --leading-tight:  1.25;
-  --leading-snug:   1.45;
-  --leading-normal: 1.65;
-  --leading-loose:  1.85;
-
-  /* --- ESPACIADO (escala 4px) --- */
-  --space-1:   0.25rem;   /*  4px */
-  --space-2:   0.50rem;   /*  8px */
-  --space-3:   0.75rem;   /* 12px */
-  --space-4:   1.00rem;   /* 16px */
-  --space-5:   1.25rem;   /* 20px */
-  --space-6:   1.50rem;   /* 24px */
-  --space-8:   2.00rem;   /* 32px */
-  --space-10:  2.50rem;   /* 40px */
-  --space-12:  3.00rem;   /* 48px */
-  --space-16:  4.00rem;   /* 64px */
-  --space-20:  5.00rem;   /* 80px */
-  --space-24:  6.00rem;   /* 96px */
-
-  /* --- BORDES Y RADIOS --- */
-  --radius-sm:   6px;
-  --radius-md:   10px;
-  --radius-lg:   16px;
-  --radius-xl:   24px;
-  --radius-full: 9999px;
-
-  /* --- SOMBRAS --- */
-  --shadow-sm:  0 1px 4px  rgba(15, 37, 72, 0.08);
-  --shadow-md:  0 4px 16px rgba(15, 37, 72, 0.12);
-  --shadow-lg:  0 8px 32px rgba(15, 37, 72, 0.18);
-  --shadow-xl:  0 16px 56px rgba(15, 37, 72, 0.24);
-
-  /* --- TRANSICIONES --- */
-  --transition-fast:   0.15s ease;
-  --transition-base:   0.25s ease;
-  --transition-slow:   0.40s ease;
-
-  /* --- Z-INDEX --- */
-  --z-base:     1;
-  --z-dropdown: 100;
-  --z-sticky:   200;
-  --z-modal:    300;
-  --z-toast:    400;
-  --z-chat:     500;
+:root{
+  --navy: #0b1f3a;
+  --navy-dark: #071527;
+  --blue-accent: #4db3e6;
+  --blue-light: #7fc9f0;
+  --red: #c0392b;
+  --white: #ffffff;
+  --overlay: rgba(7, 21, 39, 0.72);
 }
 
 *{ box-sizing: border-box; }
