@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>I.E. N° 156 El Porvenir - USE 05 SJL</title>
+
+<!-- Bootstrap 5 -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="header">
+  <div class="brand">
+    <div class="brand-badge">
+      <span class="ie-label">I E</span>
+      <span class="ie-number">156</span>
+    </div>
+    <div class="brand-title">
+      <h1>El Porvenir</h1>
+      <span>USE-05 · S.J.L</span>
+    </div>
+  </div>
+
+  <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false" aria-controls="sidebarMenu">
+    <i class="bi bi-list"></i>
+  </button>
+</header>
+
+<!-- ===== NOSOTROS ===== -->
+<section class="about" id="nosotros">
+  <div class="about-header">
+    <span class="badge-pill badge-pill-dark"><i class="bi bi-people-fill"></i> NOSOTROS</span>
+    <h2>Comprometidos con la <span class="highlight-dark">formación integral</span> de nuestros estudiantes</h2>
+  </div>
+ 
+  <div class="about-cards">
+    <div class="about-card">
+      <div class="about-card-icon"><i class="bi bi-bullseye"></i></div>
+      <h3>Misión</h3>
+      <p>
+        Brindamos un servicio educativo de calidad en los niveles de Primaria y
+        Secundaria, garantizando el logro de las competencias del Currículo Nacional.
+        Formamos a nuestros estudiantes en espacios seguros, inclusivos y libres de
+        violencia, impulsando su desarrollo intelectual, emocional y ético para la vida.
+      </p>
+    </div>
+ 
+    <div class="about-card">
+      <div class="about-card-icon"><i class="bi bi-eye-fill"></i></div>
+      <h3>Visión</h3>
+      <p>
+        Ser una institución educativa reconocida a nivel local y distrital por su
+        excelencia, formando ciudadanos críticos, creativos y con sólidos valores.
+        Garantizamos la culminación exitosa de la escolaridad de nuestros estudiantes,
+        preparándolos para los retos de la sociedad y el desarrollo de San Juan de
+        Lurigancho.
+      </p>
+    </div>
+  </div>
+ 
+  <div class="director-card">
+    <div class="director-photo">
+      <img src="directora.png" alt="Ángela Natividad Mendoza Portilla, Directora">
+    </div>
+    <div class="director-info">
+      <span class="director-tag">DIRECCIÓN</span>
+      <h3>Ángela Natividad Mendoza Portilla</h3>
+      <p>Directora de la I.E. N° 156 "El Porvenir"</p>
+    </div>
+  </div>
+</section>
+ 
+<!-- ===== OVERLAY + SIDEBAR MENU ===== -->
+<div class="overlay-bg" id="overlayBg"></div>
+ 
+<nav class="sidebar" id="sidebarMenu" aria-hidden="true">
+  <div class="sidebar-header">
+    <div class="brand-title">
+      <h1>Menú</h1>
+      <span>El Porvenir · IE 156</span>
+    </div>
+    <button class="sidebar-close" id="sidebarClose" aria-label="Cerrar menú">
+      <i class="bi bi-x-lg"></i>
+    </button>
+  </div>
+ 
+  <div class="sidebar-nav">
+    <a href="inicio.html"><i class="bi bi-house-door-fill"></i> Inicio</a>
+    <a href="nosotros.html"><i class="bi bi-people-fill"></i> Nosotros</a>
+    <a href="#niveles"><i class="bi bi-mortarboard-fill"></i> Niveles de educación</a>
+    <a href="#noticias"><i class="bi bi-newspaper"></i> Noticias</a>
+    <a href="galeria.html"><i class="bi bi-images"></i> Galería</a>
+    <a href="#contacto"><i class="bi bi-envelope-fill"></i> Contáctanos</a>
+  </div>
+ 
+  <div class="sidebar-footer">
+    © 2026 I.E. N° 156 "El Porvenir" — USE-05 SJL
+  </div>
+</nav>
+ 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+ 
+</body>
+</html>
